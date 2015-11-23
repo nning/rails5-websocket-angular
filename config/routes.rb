@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
-  resources :companies, only: :index, defaults: { format: :json }
-  root to: redirect('/companies')
+  resources :companies, only: :index
+
+  root to: 'companies#index'
 end

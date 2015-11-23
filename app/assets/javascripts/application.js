@@ -12,5 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//= require angular
+//= require_self
 //= require_tree .
+
+var App = angular.module('r5wa', []);
