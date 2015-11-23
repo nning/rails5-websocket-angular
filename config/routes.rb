@@ -3,5 +3,7 @@ Rails.application.routes.draw do
 
   resources :companies, only: :index
 
+  get '/websocket', to: ActionCable.server
+
   root to: 'companies#index'
 end

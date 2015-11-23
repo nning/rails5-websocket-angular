@@ -4,7 +4,7 @@ class CompaniesController < ApplicationController
       format.html
 
       format.json do
-        render json: Company.all
+        render json: Company.order(:created_at).all
       end
     end
   end

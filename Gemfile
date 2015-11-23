@@ -12,6 +12,7 @@ gem 'coffee-rails', github: "rails/coffee-rails"
 gem 'haml'
 gem 'jquery-rails'
 gem 'pg'
+gem 'puma'
 gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do

@@ -1,0 +1,13 @@
+default: &default
+  url: redis://localhost:6379
+  timeout: 1
+
+production:
+  <<: *default
+
+development:
+  <<: *default
+  :inline: true
+
+test:
+  <<: *default
