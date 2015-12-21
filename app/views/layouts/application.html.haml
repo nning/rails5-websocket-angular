@@ -6,6 +6,7 @@
     %title Rails 5, WebSocket, AngularJS
 
     = stylesheet_link_tag 'application', media: 'all'
+    = action_cable_meta_tag
     = javascript_include_tag 'application'
 
   %body{'ng-controller' => angular_controller(params[:controller])}
