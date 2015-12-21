@@ -20,8 +20,8 @@ ActiveRecord::Schema.define(version: 20151123194238) do
     t.string   "name"
     t.string   "slogan"
     t.string   "logo_url"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end

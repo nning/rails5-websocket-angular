@@ -1,5 +1,5 @@
-#= require cable
+#= require action_cable
 #= require_self
 #= require_tree ./services
 
-App.cable = Cable.createConsumer('ws://' + window.location.host + '/websocket')
+App.cable = ActionCable.createConsumer('ws://' + window.location.host + '/websocket')

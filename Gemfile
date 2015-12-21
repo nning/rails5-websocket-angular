@@ -7,7 +7,6 @@ gem 'sass-rails', github: "rails/sass-rails"
 gem 'arel', github: "rails/arel"
 gem 'rack', github: "rack/rack"
 
-gem 'actioncable', github: 'rails/actioncable'
 gem 'coffee-rails', github: "rails/coffee-rails"
 gem 'haml'
 gem 'jquery-rails'
