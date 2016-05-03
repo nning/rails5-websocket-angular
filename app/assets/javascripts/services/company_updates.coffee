@@ -1,5 +1,5 @@
 class CompanyUpdatesService
-  constructor: () ->
+  constructor: ->
     @onUpdate = -> {}
 
     App.cable.subscriptions.create 'CompanyUpdatesChannel',

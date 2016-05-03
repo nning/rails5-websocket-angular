@@ -1,8 +1,12 @@
 %ul#companies
   %li.company{'ng-repeat' => 'company in companies'}
-    .logo
-      %img{'ng-src' => '{{ company.logo_url }}'}
+    %company
 
-    .info
-      .name {{ company.name }}
-      .slogan {{ company.slogan }}
+    -# %div{'ng-controller' => 'SingleCompanyController(company)'}
+    -#   .logo
+    -#     %img{'ng-src' => '{{ company.logo_url }}'}
+
+    -#   .info
+    -#     .name {{ company.name }}
+    -#     .slogan {{ company.slogan }}
+    -#     .dummy {{ dummy }}

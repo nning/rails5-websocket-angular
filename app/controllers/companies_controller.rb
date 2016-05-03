@@ -8,4 +8,8 @@ class CompaniesController < ApplicationController
       end
     end
   end
+
+  def show
+    render layout: false
+  end
 end
