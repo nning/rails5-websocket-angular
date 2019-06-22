@@ -4,7 +4,7 @@ gem 'rails', '~> 5.0.0.beta4'
 
 gem 'coffee-rails'
 gem 'haml'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.3.4'
 gem 'pg'
 gem 'puma'
 gem 'redis'
