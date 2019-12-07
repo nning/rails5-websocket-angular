@@ -84,7 +84,7 @@ GEM
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     pg (0.18.4)
-    puma (3.4.0)
+    puma (3.12.2)
     rack (2.0.0.alpha)
       json
     rack-test (0.6.3)
@@ -159,7 +159,7 @@ DEPENDENCIES
   haml
   jquery-rails
   pg
-  puma
+  puma (>= 3.12.2)
   rails (~> 5.0.0.beta4)
   rails-assets-angular!
   redis
@@ -170,4 +170,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   1.11.2
+   1.17.3
